@@ -1,0 +1,10 @@
+a={
+    "name":"Shadiyar",
+    "age":18,
+    "isadult":True,
+    "color_eye":["red","blue"]
+}
+a.pop("color_eye")
+print(a.keys())
+print(a.values())
+print(a.items())
